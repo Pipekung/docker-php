@@ -14,25 +14,25 @@ Extensions enabled
 
 | Extension   | PHP 7.2 | PHP 7.4 |
 | ----------- | ------- | ------- |
-| mcrypt      |   [x]   |    x    |
-| iconv       |    x    |    x    |
-| intl        |    x    |    x    |
-| mbstring    |    x    |    x    |
-| gd          |    x    |    x    |
-| curl        |    x    |    x    |
-| dom         |    x    |    x    |
-| simplexml   |    x    |    x    |
-| xmlreader   |    x    |    x    |
-| xmlwriter   |    x    |    x    |
-| sockets     |    x    |    x    |
-| zip         |    x    |    x    |
-| pdo_pgsql   |    x    |    x    |
-| pdo_mysql   |    x    |    x    |
-| pdo_sqlite  |    x    |    x    |
-| redis       |    x    |    x    |
+| mcrypt      | &check; | &check; |
+| iconv       | &check; | &check; |
+| intl        | &check; | &check; |
+| mbstring    | &check; | &check; |
+| gd          | &check; | &check; |
+| curl        | &check; | &check; |
+| dom         | &check; | &check; |
+| simplexml   | &check; | &check; |
+| xmlreader   | &check; | &check; |
+| xmlwriter   | &check; | &check; |
+| sockets     | &check; | &check; |
+| zip         | &check; | &check; |
+| pdo_pgsql   | &check; | &check; |
+| pdo_mysql   | &check; | &check; |
+| pdo_sqlite  | &check; | &check; |
+| redis       | &check; | &check; |
 
 Extras
 ------
 
-- composer
-- fxp/composer-asset-plugin:^1.4
+- [x] composer
+- [x] fxp/composer-asset-plugin:^1.4
