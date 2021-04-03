@@ -22,13 +22,6 @@ RUN curl -L -o /tmp/redis.tar.gz https://github.com/phpredis/phpredis/archive/$R
     && mv phpredis-* /usr/src/php/ext/redis
 RUN docker-php-ext-install redis
 
-RUN pecl install apcu \
-    # && pecl install apcu_bc-1.0.5 \
-    # && docker-php-ext-enable apcu --ini-name 10-docker-php-ext-apcu.ini \
-    # && docker-php-ext-enable apc --ini-name 20-docker-php-ext-apc.ini \
-    && docker-php-ext-enable apcu \
-    && pecl clear-cache
-
 COPY php.ini /usr/local/etc/php/php.ini
 
 RUN composer global require "fxp/composer-asset-plugin:$COMPOSER_ASSET_PLUGIN_VERSION"
