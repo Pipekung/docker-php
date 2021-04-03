@@ -7,7 +7,7 @@ Supported tags
 --------------
 
 - [`7.4-fpm-alpine`, `latest`](7.4/Dockerfile)
-- [`7.2-fpm-alpine`](7.2/fpm/Dockerfile)
+- [`7.2-fpm-alpine`](7.2/Dockerfile)
 
 Extensions enabled
 ------------------
