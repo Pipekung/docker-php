@@ -14,7 +14,7 @@ Extensions enabled
 
 | Extension   | PHP 7.2 | PHP 7.4 |
 | ----------- | ------- | ------- |
-| mcrypt      |    x    |    x    |
+| mcrypt      |   [x]   |    x    |
 | iconv       |    x    |    x    |
 | intl        |    x    |    x    |
 | mbstring    |    x    |    x    |
