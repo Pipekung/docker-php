@@ -7,11 +7,11 @@ ENV REDIS_VERSION 5.3.4
 ENV MCRYPT_VERSION 1.0.4
 
 RUN set -ex \
-  && apk --no-cache add composer postgresql-dev git php7-dev libmcrypt-dev icu-dev freetype-dev libjpeg-turbo-dev libpng-dev \
+  && apk --no-cache add composer postgresql-dev git php-dev libmcrypt-dev icu-dev freetype-dev libjpeg-turbo-dev libpng-dev \
   && docker-php-ext-install pdo_mysql pdo_pgsql iconv \
   && docker-php-ext-configure intl \
   && docker-php-ext-install intl \
-  && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/  --with-png-dir=/usr/include/ \
+  && docker-php-ext-configure gd --with-freetype-dir=/usr/include/ --with-jpeg-dir=/usr/include/ --with-png-dir=/usr/include/ \
   && docker-php-ext-install -j$(nproc) gd \
   && docker-php-source delete
 
