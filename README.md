@@ -12,24 +12,24 @@ Supported tags
 Extensions enabled
 ------------------
 
-| Extension   | PHP 7.2 | PHP 7.4 |
-| ----------- | ------- | ------- |
-| mcrypt      | &check; | &check; |
-| iconv       | &check; | &check; |
-| intl        | &check; | &check; |
-| mbstring    | &check; | &check; |
-| gd          | &check; | &check; |
-| curl        | &check; | &check; |
-| dom         | &check; | &check; |
-| simplexml   | &check; | &check; |
-| xmlreader   | &check; | &check; |
-| xmlwriter   | &check; | &check; |
-| sockets     | &check; | &check; |
-| zip         | &check; | &check; |
-| pdo_pgsql   | &check; | &check; |
-| pdo_mysql   | &check; | &check; |
-| pdo_sqlite  | &check; | &check; |
-| redis       | &check; | &check; |
+| Extension   | PHP 5.6 | PHP 7.2 | PHP 7.4 |
+| ----------- | ------- | ------- | ------- |
+| mcrypt      | &check; | &check; | &check; |
+| iconv       | &check; | &check; | &check; |
+| intl        | &check; | &check; | &check; |
+| mbstring    | &check; | &check; | &check; |
+| gd          | &check; | &check; | &check; |
+| curl        | &check; | &check; | &check; |
+| dom         | &check; | &check; | &check; |
+| simplexml   | &check; | &check; | &check; |
+| xmlreader   | &check; | &check; | &check; |
+| xmlwriter   | &check; | &check; | &check; |
+| sockets     | &check; | &check; | &check; |
+| zip         | &check; | &check; | &check; |
+| pdo_pgsql   | &check; | &check; | &check; |
+| pdo_mysql   | &check; | &check; | &check; |
+| pdo_sqlite  | &check; | &check; | &check; |
+| redis       | &check; | &check; | &check; |
 
 Extras
 ------
